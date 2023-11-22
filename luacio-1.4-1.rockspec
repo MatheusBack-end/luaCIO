@@ -1,5 +1,5 @@
 package = "luacio"
-version = "1.3-1"
+version = "1.4-1"
 source = {
    url = "git://github.com/MatheusBack-end/luaCIO.git"
 }
@@ -15,6 +15,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-    luacio = 'io.c'
+    luacio = 'luacio.c'
   }
 }
