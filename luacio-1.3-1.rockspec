@@ -1,8 +1,7 @@
 package = "luacio"
-version = "1.2-1"
+version = "1.3-1"
 source = {
-   url = "git://github.com/MatheusBack-end/luaCIO.git",
-   tag = "main"
+   url = "git://github.com/MatheusBack-end/luaCIO.git"
 }
 description = {
    summary = "my first lib lua",
@@ -15,5 +14,7 @@ dependencies = {
 }
 build = {
    type = "builtin",
-   modules = {}
+   modules = {
+    luacio = 'io.c'
+  }
 }
